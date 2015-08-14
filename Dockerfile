@@ -1,6 +1,7 @@
 FROM jenkins
 MAINTAINER JPavlov <webaib@gmail.com>
 
+USER root
 # In case someone loses the Dockerfile
 RUN rm -rf /etc/Dockerfile
 ADD Dockerfile /etc/Dockerfile
