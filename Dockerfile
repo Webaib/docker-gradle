@@ -1,4 +1,4 @@
-FROM jenkins
+FROM jenkins:latest
 MAINTAINER JPavlov <webaib@gmail.com>
 
 USER root
