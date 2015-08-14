@@ -1,12 +1,12 @@
 FROM jenkins
-MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
+MAINTAINER JPavlov <webaib@gmail.com>
 
 # In case someone loses the Dockerfile
 RUN rm -rf /etc/Dockerfile
 ADD Dockerfile /etc/Dockerfile
 
 # Gradle
-ENV GRADLE_VERSION 2.5
+ENV GRADLE_VERSION 2.6
 WORKDIR /usr/bin
 RUN wget "https://services.gradle.org/distributions/gradle-${GRADLE_VERSION}-bin.zip" && \
     unzip "gradle-${GRADLE_VERSION}-bin.zip" && \
