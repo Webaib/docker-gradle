@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM jenkins
 MAINTAINER Nicholas Iaquinto <nickiaq@gmail.com>
 
 # In case someone loses the Dockerfile
